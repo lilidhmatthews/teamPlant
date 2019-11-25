@@ -18,18 +18,26 @@ div{
 
 }
 
+img {
+    display: flex;
+    width: 50%;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
 .section_one{
-    background: rgb(115, 214, 115);
+    background: #e2e8f0;
     text-align: center;
 }
 
 .section_two{
-    background: rgb(115, 214, 115);
+    background: #e2e8f0;
     text-align: center;
 }
 
 .section_three{
-    background: rgb(115, 214, 115);
+    background: #e2e8f0;
     text-align: center;
 }
 
@@ -50,6 +58,8 @@ h3 {
 
 button{
     margin-left: 0px;
+    background: rgb(39, 212, 198);
+    border-radius: 12%;
 }
 
 th, td {
@@ -68,6 +78,7 @@ td{
     height: 30px;
     border: 1px solid black;
 }
+
 
 
 
