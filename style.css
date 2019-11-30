@@ -19,11 +19,9 @@ div{
 }
 
 img {
-    display: flex;
-    width: 50%;
-    padding: 20px;
+    padding: 0px;
     margin: 0 auto;
-    border-radius: 100%;
+    border-radius: 0%;
 }
 
 .section_one{
@@ -40,6 +38,7 @@ img {
     background: #e2e8f0;
     text-align: center;
 }
+
 
 h1{
     text-align: left;
