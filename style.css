@@ -57,9 +57,18 @@ h3 {
 
 button{
     margin-left: 0px;
-    background: rgb(39, 212, 198);
-    border-radius: 12%;
+    background: rgb(103, 250, 238);
+    font: white; 
+    border-radius: 5%;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    cursor: pointer;
+    border-color: #e2e8f0;
+    border-width: 10, 10, 10, 10;
+    border-style: solid;
 }
+
 
 th, td {
     padding: 25px;
