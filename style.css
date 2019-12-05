@@ -24,6 +24,10 @@ img {
     border-radius: 0%;
 }
 
+.section{
+    background: #e2e8f0;
+}
+
 .section_one{
     background: #e2e8f0;
     text-align: center;
@@ -57,8 +61,9 @@ h3 {
 
 button{
     margin-left: 0px;
-    background: rgb(103, 250, 238);
+    background: rgb(59, 255, 239);
     font: white; 
+    font-display: centre;
     border-radius: 5%;
     padding: 0;
     line-height: inherit;
