@@ -18,6 +18,8 @@ div{
 
 }
 
+
+
 img {
     padding: 0px;
     margin: 0 auto;
@@ -26,6 +28,27 @@ img {
 
 p{
     text-align: center;
+    color: black;
+}
+
+h4{
+    text-align:left;
+    font-size: 2em; 
+    color: #228b22;
+}
+
+h6{
+    text-align: right;
+    font-size: 2em; 
+    color: #228b22;
+}
+
+h5{
+    color: black;
+}
+
+h3{
+    text-align: left;
 }
 
 .section{
@@ -39,12 +62,12 @@ p{
 
 .section_two{
     background: #e2e8f0;
-    text-align: center;
+    text-align: left;
 }
 
 .section_three{
     background: #e2e8f0;
-    text-align: center;
+    text-align: right;
 }
 
 
@@ -107,3 +130,9 @@ ul.navbar-nav {
   .carousel-control-prev{
       color:black;
   }
+
+  li{
+      color: black;
+  }
+
+  
