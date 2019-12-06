@@ -24,6 +24,10 @@ img {
     border-radius: 0%;
 }
 
+p{
+    text-align: center;
+}
+
 .section{
     background: #e2e8f0;
 }
@@ -45,7 +49,7 @@ img {
 
 
 h1{
-    text-align: left;
+    text-align: center;
     color: #228b22;
     font-size: 2em;
 }
@@ -53,26 +57,13 @@ h1{
 
 h2{ 
     text-align: center;
+    font-size: 2em;
 }
 
 h3 {
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
-button{
-    margin-left: 0px;
-    background: rgb(59, 255, 239);
-    font: white; 
-    font-display: centre;
-    border-radius: 5%;
-    padding: 0;
-    line-height: inherit;
-    color: inherit;
-    cursor: pointer;
-    border-color: #e2e8f0;
-    border-width: 10, 10, 10, 10;
-    border-style: solid;
-}
 
 
 th, td {
@@ -83,6 +74,10 @@ th, td {
 th{
     text-align: center;
     text-decoration: underline;
+}
+
+button{
+    text-align: center;
 }
 
 td{
@@ -102,4 +97,13 @@ ul.navbar-nav {
   .starter-template {
     padding: 3rem 1.5rem;
     text-align: center;
+  }
+
+  .carousel-item{
+    transition: transform 2s ease, opacity .2s ease-out;
+  }
+
+  
+  .carousel-control-prev{
+      color:black;
   }
