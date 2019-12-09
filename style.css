@@ -166,3 +166,9 @@ ul.navbar-nav {
   clear: both;
   display: table;
 }
+
+.p_carousel {
+    font-style: oblique;
+    color: red;
+    
+}
