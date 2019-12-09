@@ -133,6 +133,9 @@ ul.navbar-nav {
 
   li{
       color: black;
+      text-align: left;
   }
 
-  
+  .p3{
+    text-align: right;
+  }
