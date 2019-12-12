@@ -6,7 +6,6 @@ body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
-
 title{
     text-align: center;
     color: #228b22;
@@ -15,10 +14,7 @@ title{
 div{
     min-height: 5vh;
     border: 0px
-
 }
-
-
 
 img {
     padding: 0px;
@@ -70,7 +66,7 @@ h3{
     text-align: left;
 }
 
-.wrapper {
+.cta-wrapper {
     text-align: center;
 }
 
@@ -80,13 +76,11 @@ h3{
 }
 
 
-
 h1{
     text-align: center;
     color: #228b22;
     font-size: 2em;
 }
-
 
 h2{ 
     text-align: center;
@@ -96,8 +90,6 @@ h2{
 h3 {
     font-size: 0.9em;
 }
-
-
 
 th, td {
     padding: 25px;
@@ -120,7 +112,6 @@ td{
     border: 1px solid black;
 }
 
-
 ul.navbar-nav {
     display: flex;
     justify-content: space-evenly;
@@ -136,8 +127,7 @@ ul.navbar-nav {
     transition: transform 2s ease, opacity .2s ease-out;
   }
 
-  
-  .carousel-control-prev{
+    .carousel-control-prev{
       color:black;
   }
 
@@ -159,7 +149,6 @@ ul.navbar-nav {
   width: 33.33%;
   padding: 5px;
 }
-
 
 .row::after {
   content: "";
