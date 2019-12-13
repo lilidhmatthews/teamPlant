@@ -34,6 +34,23 @@ h4 {
     color: #228b22;
 }
 
+.h4cta{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase
+    font-weight: 700;
+    margin-top:0;
+    margin-bottom:0
+    }
+
+.h2cta{
+    width:100%;
+    text-align:center;
+    font-size: medium;
+    font-style: bold;
+    text-shadow:1px 1px 10px black
+}
+
 h6 {
     text-align: right;
     font-size: 2em;
