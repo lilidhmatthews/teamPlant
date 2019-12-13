@@ -103,6 +103,10 @@ h3 {
 
 .cta-wrapper {
     text-align: center;
+    background-image: url('images/plantone.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 23vh;
 }
 
 .nextCta__slider-link1 {
