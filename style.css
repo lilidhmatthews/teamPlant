@@ -83,6 +83,7 @@ h3 {
     text-align: left;
 }
 
+
 .cta-wrapper {
     text-align: center;
 }
@@ -234,4 +235,8 @@ li {
 
 .p_carousel {
     font-style: oblique;
+}
+
+.pot_images{
+    text-align: center;
 }
