@@ -210,6 +210,10 @@ th {
     top: 50%;
 }
 
+.subscribe_button{
+    padding: 5px 70px 50px 90px;
+}
+
 td {
     vertical-align: top;
     text-align: left;
