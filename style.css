@@ -98,6 +98,24 @@ h3{
     max-width: 350px
 }
 
+.nextCta__slider::-webkit-slider-thumb {
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    border-width: 4px;
+    border-color: rgba(0,0,0,0);
+    border-radius: 9999px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    -webkit-transition: all 5s ease-in;
+    transition: all 5s ease-in;
+    width: 57px;
+    height: 57px;
+    background-image: url(images/right-arrow.png);
+    background-size: 90%
+}
+
 .button {
     position: absolute;
     top: 50%;
