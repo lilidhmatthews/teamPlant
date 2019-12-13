@@ -83,9 +83,7 @@ h3 {
     text-align: left;
 }
 
-.section_seven{
-    background-image: url('images/plantone.jpg')
-}
+
 .cta-wrapper {
     text-align: center;
 }
@@ -237,4 +235,8 @@ li {
 
 .p_carousel {
     font-style: oblique;
+}
+
+.pot_images{
+    text-align: center;
 }
