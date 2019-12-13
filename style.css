@@ -74,6 +74,23 @@ h3{
     text-align: center;
 }
 
+.nextCta__slider-link1{
+    <a href="plants.html"></a>
+}
+
+.nextCta__slider-link2{
+    <a href="pot.html"></a>
+}
+
+.nextCta__slider-link3{
+    <a href="delivery.html"></a>
+}
+
+/*For the Form Entry*/
+.nextCta__slider-link4{
+    <a href="#"></a>
+}
+
 .nextCta__slider{
     width: 100%;
     padding-left: .25rem;
