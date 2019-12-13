@@ -96,9 +96,7 @@ h3 {
     text-align: left;
 }
 
-.section_four {
-    text-align: right;
-}
+
 
 .section_six{
     text-align: left;
@@ -171,6 +169,11 @@ h3 {
     height: 57px;
     background-image: url(images/right-arrow.png);
     background-size: 90%
+}
+
+.form-group{
+    padding: 25px;
+
 }
 
 .button {
