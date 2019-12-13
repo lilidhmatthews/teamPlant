@@ -83,8 +83,12 @@ h3 {
 }
 
 .section_two {
-    background: #e2e8f0;
-    text-align: right;
+    text-align: center;
+    color: white;
+    background-image: url('images/flowers.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
 }
 
 .section_three {
@@ -230,8 +234,9 @@ ul.navbar-nav {
 }
 
 li {
-    color: black;
+    color: white;
     text-align: left;
+    padding-left: 25px;
 }
 
 .section_four {
