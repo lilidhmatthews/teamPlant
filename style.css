@@ -1,17 +1,17 @@
-body{
+body {
     background: (white);
-    color: black; 
+    color: black;
     margin: 0px;
     border-radius: 10px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
-title{
+title {
     text-align: center;
     color: #228b22;
 }
 
-div{
+div {
     min-height: 5vh;
     border: 0px
 }
@@ -22,76 +22,81 @@ img {
     border-radius: 0%;
 }
 
-p{
+p {
     text-align: center;
     color: black;
 }
 
-h4{
-    text-align:left;
-    font-size: 2em; 
+h4 {
+    text-align: left;
+    font-size: 2em;
     color: #228b22;
 }
 
-h6{
+h6 {
     text-align: right;
-    font-size: 2em; 
+    font-size: 2em;
     color: #228b22;
 }
 
-h5{
+h5 {
     color: black;
 }
 
-h3{
+h3 {
     text-align: left;
 }
 
-.section{
+.section {
     background: #e2e8f0;
 }
 
-.section_one{
-    background: #e2e8f0;
+.section_one {
     text-align: center;
+    color: white;
+    background-image: url('images/flowers.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 23vh;
 }
 
-.section_two{
+.section_two {
     background: #e2e8f0;
     text-align: right;
 }
 
-.section_three{
+.section_three {
     background: #e2e8f0;
     text-align: left;
 }
 
-.section_four{
+.section_four {
     text-align: right;
 }
 
-.cta-wrapper{
+.cta-wrapper {
     text-align: center;
 }
 
-.nextCta__slider-link1{
+.nextCta__slider-link1 {
     <a href="plants.html"></a>
 }
 
-.nextCta__slider-link2{
+.nextCta__slider-link2 {
     <a href="pot.html"></a>
 }
 
-.nextCta__slider-link3{
+.nextCta__slider-link3 {
     <a href="delivery.html"></a>
 }
 
 /*For the Form Entry*/
-.nextCta__slider-link4{
+
+.nextCta__slider-link4 {
     <a href="#"></a>
 }
 
-.nextCta__slider{
+.nextCta__slider {
     width: 100%;
     padding-left: .25rem;
     padding-right: .25rem;
@@ -107,7 +112,7 @@ h3{
     outline: 0;
     border-radius: 9999px;
     height: 70px;
-    background: hsla(0,0%,64.3%,.86);
+    background: hsla(0, 0%, 64.3%, .86);
     -webkit-transition: opacity .2s;
     -o-transition: opacity .2s;
     -moz-transition: opacity .2s;
@@ -120,7 +125,7 @@ h3{
     -webkit-appearance: none;
     appearance: none;
     border-width: 4px;
-    border-color: rgba(0,0,0,0);
+    border-color: rgba(0, 0, 0, 0);
     border-radius: 9999px;
     background-color: #fff;
     background-repeat: no-repeat;
@@ -138,14 +143,13 @@ h3{
     top: 50%;
 }
 
-
-h1{
+h1 {
     text-align: center;
     color: #228b22;
     font-size: 2em;
 }
 
-h2{ 
+h2 {
     text-align: center;
     font-size: 2em;
 }
@@ -156,10 +160,9 @@ h3 {
 
 th, td {
     padding: 25px;
-
 }
 
-th{
+th {
     text-align: center;
     text-decoration: underline;
 }
@@ -169,7 +172,7 @@ th{
     top: 50%;
 }
 
-td{
+td {
     vertical-align: top;
     text-align: left;
     height: 30px;
@@ -180,46 +183,46 @@ ul.navbar-nav {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-  }
+}
 
-  .starter-template {
+.starter-template {
     padding: 3rem 1.5rem;
     text-align: center;
-  }
+}
 
-  .carousel-item{
+.carousel-item {
     transition: transform 2s ease, opacity .2s ease-out;
-  }
+}
 
-    .carousel-control-prev{
-      color:black;
-  }
+.carousel-control-prev {
+    color: black;
+}
 
-  li{
-      color: black;
-      text-align: left;
-  }
+li {
+    color: black;
+    text-align: left;
+}
 
-.section_four{
-        text-align: right;
+.section_four {
+    text-align: right;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
 }
 
 .row::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .p_carousel {
-    font-style: oblique;  
+    font-style: oblique;
 }
