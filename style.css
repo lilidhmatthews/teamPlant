@@ -354,3 +354,7 @@ li {
     line-height: 45px;
     vertical-align: middle;
   }
+
+  .social-buttons{
+      text-align: center;
+  }
