@@ -236,8 +236,8 @@ ul.navbar-nav {
     transition: transform 2s ease, opacity .2s ease-out;
 }
 
-.carousel-control-prev {
-    color: black;
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 50%;
 }
 
 li {
