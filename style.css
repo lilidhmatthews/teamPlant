@@ -85,8 +85,12 @@ h3 {
 }
 
 .section_two {
-    background: #e2e8f0;
-    text-align: right;
+    text-align: center;
+    color: white;
+    background-image: url('images/flowers.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
 }
 
 .section_three {
@@ -94,9 +98,7 @@ h3 {
     text-align: left;
 }
 
-.section_four {
-    text-align: right;
-}
+
 
 .section_six{
     text-align: left;
@@ -171,6 +173,11 @@ h3 {
     background-size: 90%
 }
 
+.form-group{
+    padding: 25px;
+
+}
+
 .button {
     position: absolute;
     top: 50%;
@@ -205,6 +212,10 @@ th {
     top: 50%;
 }
 
+.subscribe_button{
+    padding: 5px 70px 50px 90px;
+}
+
 td {
     vertical-align: top;
     text-align: left;
@@ -227,13 +238,11 @@ ul.navbar-nav {
     transition: transform 2s ease, opacity .2s ease-out;
 }
 
-.carousel-control-prev {
-    color: black;
-}
 
 li {
-    color: black;
+    color: white;
     text-align: left;
+    padding-left: 25px;
 }
 
 .section_four {
@@ -263,3 +272,91 @@ li {
 .pot_images{
     text-align: center;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 45px;
+    vertical-align: middle;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 45px;
+    vertical-align: middle;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 45px;
+    vertical-align: middle;
+  }
+  
+  .fa-instagram {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 45px;
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 45px;
+    vertical-align: middle;
+  }
+
+  .social-buttons{
+      text-align: center;
+  }
