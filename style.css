@@ -236,9 +236,6 @@ ul.navbar-nav {
     transition: transform 2s ease, opacity .2s ease-out;
 }
 
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    width: 50%;
-}
 
 li {
     color: white;
@@ -273,3 +270,87 @@ li {
 .pot_images{
     text-align: center;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 45px;
+    vertical-align: middle;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 45px;
+    vertical-align: middle;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 45px;
+    vertical-align: middle;
+  }
+  
+  .fa-instagram {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 45px;
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 45px;
+    vertical-align: middle;
+  }
