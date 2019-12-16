@@ -246,6 +246,11 @@ ul.navbar-nav {
 
 .carousel-item {
     transition: transform 2s ease, opacity .2s ease-out;
+    position: center;
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .carousel-caption {
     position: relative;
@@ -259,28 +264,12 @@ ul.navbar-nav {
     margin-left: auto;
     margin-right: auto;
 }
-/* <---Need to work out new way to style this carousel with new images
-h5 {
-    color: white;
-    text-shadow: 0 1px 2px rgba(0,0,0,.6);
-    padding: 10px;
-}
 
 .p_carousel {
     color: white;
-    position: absolute;
-    color: white;
-    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-shadow: 1px 1px 2px rgba(0,0,0,.8);
 }
-*/
 
-/*
-li {
-    color: white;
-    text-align: left;
-    padding-left: 25px;
-}
-*/
 .section_four {
     text-align: right;
 }
