@@ -22,7 +22,3 @@
       location.href="contact.html"
     }
   })
-
-  $("#contact").click(function(){
-    alert(Link Agreed)
-  })
