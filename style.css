@@ -244,11 +244,13 @@ ul.navbar-nav {
     background-color: #285AEB;
 }
 
+.carousel-item .explainimg {
+    max-width:100%;
+    max-height:100%;
+}
+
 .carousel-item {
-    transition: transform 2s ease, opacity .2s ease-out;
-    position: center;
-    height: auto;
-    width: auto;
+    transition: transform .2s ease, opacity .2s ease-out;
     margin-left: auto;
     margin-right: auto;
 }
