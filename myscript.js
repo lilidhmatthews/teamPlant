@@ -1,5 +1,4 @@
-
-  
+ 
   $("#a").change(function(e){
     if(e.target.value>90){
       location.href="plants.html"
@@ -22,4 +21,8 @@
     if(e.target.value>90){
       location.href="contact.html"
     }
+  })
+
+  $("#contact").click(function(){
+    alert(Link Agreed)
   })
